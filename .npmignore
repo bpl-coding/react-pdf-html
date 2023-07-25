@@ -1,6 +1,6 @@
 /**
-!/dist/*.js
-!/dist/*.d.ts
-!/dist/*.js.map
-/dist/*.test.js
+!/src/*.js
+!/src/*.d.ts
+!/src/*.js.map
+/src/*.test.js
 !/tsconfig.json
