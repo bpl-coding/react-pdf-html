@@ -118,8 +118,8 @@ const renderers: HtmlRenderers = {
 
     return (
       <View style={style}>
-        {bullet && <View style={bulletStyles}>{bullet}</View>}
-        <View style={contentStyles}>{children}</View>
+        {bullet && <View wrap={false} style={bulletStyles}>{bullet}</View>}
+        <View wrap={false} style={contentStyles}>{children}</View>
       </View>
     );
   },
